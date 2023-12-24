@@ -1,0 +1,67 @@
+body {
+    font-family: 'Pacifico', 'cursive';
+    background-color: #ffdde1; /* Pale Pink Background */
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #a3c5f2; /* Periwinkle Blue Background for the Container */
+    padding: 40px; /* Increased padding for more space */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 100vh; /* Take up the entire screen height */
+    width: 100vw; /* Take up the entire screen width */
+}
+
+.question {
+    font-size: 50px; /* Increased font size for the question */
+    color: #fb6a98; /* Light Coral Pink Text Color */
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px; /* Larger border radius for images */
+}
+
+/* Button colors */
+.yes {
+    background-color: #ffb6c1; /* Pastel Pink */
+    color: #fff;
+   
+}
+
+.no {
+    background-color: #84b5f6; /* Light Blue */
+    color: #fff;
+    
+}
+
+
+.options {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Increased gap between buttons */
+    margin-top: 30px; /* Increased margin between question and buttons */
+    padding-bottom: 30px;
+}
+
+.btn {
+    padding: 20px 40px; /* Further increased padding for larger buttons */
+    font-size: 18px; /* Increased font size for buttons */
+    cursor: pointer;
+    border: none;
+    border-radius: 10px; /* Increased border radius for buttons */
+    transition: background-color 0.3s;
+}
+
+
+.btn:hover {
+    filter: brightness(1.2);
+}
+
